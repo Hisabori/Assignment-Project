@@ -7,6 +7,11 @@ public class Application {
         //System.out.println("test");
 
         new Control().method1();
+        new Control().method2();
+
+        new Array().method1();
+        new Array().method2();
+        new Array().method3();
 
     }
 }
