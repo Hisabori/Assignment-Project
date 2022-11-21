@@ -7,7 +7,7 @@ package com.kh.Assignment.Nov_20_2022.Code;
 
 public class Array {
 
-    public void method1(){
+    public void method1() {
 
 
 //Array Assignment
@@ -29,8 +29,8 @@ public class Array {
         //System.out.println(iArray[5]);
 
 //Array+배열
-        for(int i=0; i<dArray.length; i++){
-            iArray[i]=(i+1)*10;
+        for (int i = 0; i < dArray.length; i++) {
+            iArray[i] = (i + 1) * 10;
             System.out.println(iArray[i]);
         }
 
@@ -45,7 +45,7 @@ public class Array {
 
 //2차원배열
 
-    public void method2(){
+    public void method2() {
         /*
         선언방법:
         */
@@ -58,10 +58,10 @@ public class Array {
 
         iArray = new int[4][4];
 
-        iArray[0][0]=10;
-        iArray[0][1]=20;
-        iArray[0][2]=30;
-        iArray[0][3]=40;
+        iArray[0][0] = 10;
+        iArray[0][1] = 20;
+        iArray[0][2] = 30;
+        iArray[0][3] = 40;
 
         System.out.println(iArray[0][0]);
         System.out.println(iArray[0][1]);
@@ -69,9 +69,9 @@ public class Array {
         System.out.println(iArray[0][3]);
 
         //중첩반복문 사용
-        for (int i=0; i< iArray.length; i++){
-            for (int j= 0; j< iArray[i].length; j++){
-                iArray[i][j]=(j+1)*10;
+        for (int i = 0; i < iArray.length; i++) {
+            for (int j = 0; j < iArray[i].length; j++) {
+                iArray[i][j] = (j + 1) * 10;
                 System.out.println(iArray[i][j]);
             }
         }
@@ -82,16 +82,16 @@ public class Array {
 
     }
 
-    public void method3(){
+    public void method3() {
         int[][] iArray = new int[2][];
-        double[][] dArray = {{1.1,2.2,3.3},{4.4,5.5,6.6}};
+        double[][] dArray = {{1.1, 2.2, 3.3}, {4.4, 5.5, 6.6}};
 
-        iArray[0]=new int[3];
-        iArray[1]=new int[2];
+        iArray[0] = new int[3];
+        iArray[1] = new int[2];
 
-        for (int i= 0; i<iArray.length; i++){
-            for (int j= 0; j<iArray[i].length; j++){
-                iArray[i][j]=j+1;
+        for (int i = 0; i < iArray.length; i++) {
+            for (int j = 0; j < iArray[i].length; j++) {
+                iArray[i][j] = j + 1;
             }
         }
     }
