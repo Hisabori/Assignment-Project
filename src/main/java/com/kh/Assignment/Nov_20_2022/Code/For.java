@@ -1,5 +1,7 @@
 package com.kh.Assignment.Nov_20_2022.Code;
 
+import java.util.Scanner;
+
 public class For {
     public void method1() {
         for (int i = 1; i <= 10; i++) {
@@ -80,7 +82,12 @@ public class For {
     */
 
 
+    public void  method6() {
+        int num = 0;
+        Scanner sc= new Scanner(System.in);
 
+        System.out.println();
+    }
 }
 
 
