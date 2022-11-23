@@ -16,7 +16,7 @@ public class Application {
         //new Array().method2();
         //new Array().method3();
         //new Array().method4();
-        new Array().method5(method4);
+        //new Array().method5(method4);
 
        // new Member().method1();
 

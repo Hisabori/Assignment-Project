@@ -7,7 +7,6 @@ package com.kh.Assignment.Nov_20_2022.Code;
 
 import java.util.Scanner;
 
-import static jdk.internal.net.http.common.Utils.close;
 
 public class Array {
 /*
@@ -153,12 +152,12 @@ public class Array {
 
     //if-else if else
 
+    /*
     public void method6() {
         char ch = '\uAC13';
-        char ch = '\u000';
 
         Scanner SC = new Scanner(System.in);
-        ch = SC.nextLine().charAt();
+        //ch = SC.nextLine().charAt();
 
         if ((ch >= 'A') && (ch <= 'Z')) {
             System.out.printf("%c는 알파벳 소문자이다", ch);
@@ -175,5 +174,7 @@ public class Array {
 
         System.out.println("ch");
     }
+
+     */
 }
 
