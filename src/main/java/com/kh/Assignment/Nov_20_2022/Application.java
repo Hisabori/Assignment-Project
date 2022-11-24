@@ -24,6 +24,8 @@ public class Application {
         new For().method3();
         new For().method4();
         new For().method5();
+        new For().method6();
+        //new For().method7();
 
     }
 
