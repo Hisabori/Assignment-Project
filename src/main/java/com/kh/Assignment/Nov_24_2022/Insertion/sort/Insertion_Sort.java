@@ -1,5 +1,4 @@
 package com.kh.Assignment.Nov_24_2022.Insertion.sort;
-
 import java.util.Arrays;
 
 public class Insertion_Sort {
@@ -19,14 +18,11 @@ public class Insertion_Sort {
             while(prev>=0 && nums[prev]>temp){
                 nums[prev+1]=nums[prev];
                 prev--;
-
             }
             nums[prev+1]=temp;
         }
         System.out.println("after");
         System.out.println(Arrays.toString(nums));
-
     }
-
 }
 
