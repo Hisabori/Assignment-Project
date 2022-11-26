@@ -1,6 +1,6 @@
 package com.kh.Assignment.Nov_24_2022.Merge_Sort;
 
-public class Merge {
+public class Merge_Sort {
         public static void sort(int[] arr, int left, int right) {
             mergeSort(arr, left, right);
         }
