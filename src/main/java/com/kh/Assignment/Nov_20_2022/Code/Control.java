@@ -5,12 +5,14 @@
 */
 package com.kh.Assignment.Nov_20_2022.Code;
 
-import java.util.Scanner;
-
 //Control Assignment
 public class Control {
 
-//if else / else if / scanner / for
+    private int i;
+
+    //if else / else if / scanner / for
+
+    /*
     public void method1() {
 
         Scanner SC;
@@ -32,24 +34,23 @@ public class Control {
             SC.nextLine();
             if (i > 30 == i <= 100) {
                 System.out.println("30 이상 100");
-            }   else {
+            } else {
                 System.out.println("error");
             }
         }
-
-    }
+        */
 
 //while / break / continue
-    public void method2() {
-        int i;
+        public void method2() {
+            int i;
 
-        while (true) {
+            //while (true) {
             for (i = 1; i < 10; i++) {
                 System.out.println("10 미만의 수");
-                if (i == 6) {
-                    continue;
+                if (i < 11) {
+                continue;
                 }
-                System.out.println("i:" + i);
+                System.out.println("j:" + i);
                 break;
 
             }
@@ -57,7 +58,6 @@ public class Control {
         }
     }
 
-//
-}
+
 
 

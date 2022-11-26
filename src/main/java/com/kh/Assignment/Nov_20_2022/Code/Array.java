@@ -5,9 +5,14 @@
 */
 package com.kh.Assignment.Nov_20_2022.Code;
 
-public class Array {
+import java.util.Scanner;
 
+Study-Week2
     public void method1() {
+
+public class Array {
+/*
+    //public void method1(){
 
 
 //Array Assignment
@@ -45,10 +50,17 @@ public class Array {
 
 //2차원배열
 
+    Study-Week2
     public void method2() {
         /*
         선언방법:
         */
+
+    //public void method2(){
+
+        //선언방법:
+
+
         int[][] iArray;
         double dArray[][];
         byte bArray[];
@@ -95,4 +107,83 @@ public class Array {
             }
         }
     }
+    */
+/*
+    public void method4() {
+        int number = 0;
+        Scanner SC = new Scanner(System.in);
+        System.out.println("정수 입력");
+        number = SC.nextInt();
+
+        if ((number % 2) == 0) {
+            System.out.printf("%d는 짝수이다. \n", number);
+        } else if ((number % 2) != 0) {
+            System.out.printf("%d는 홀후이다. \n", number);
+        } else {
+
+        }
+
+
+        //SC.close();
+
+    }
+
+     public void method5(Object method4){
+        String name = "";
+
+         Scanner SC = new Scanner(System.in);
+        System.out.println("이름 입력. >");
+        name = SC.nextLine();
+
+        System.out.println("문인수"== "문인수");
+        System.out.println("문인수" == new String("문인수"));
+        System.out.println(new String("문인수").equals("문인수"));
+
+        if (name == "문인수") {
+            System.out.println("본인이다");
+        } else if (name == null){
+            System.out.println("null");
+        } else {
+            System.out.println("본인이 아님");
+        }
+
+
+        SC.close();
+
+
+    }
+
+    private class include {
+    }
+
+    Scanner SC = new Scanner(System.in);
+    */
+
+    //if-else if else
+
+    /*
+    public void method6() {
+        char ch = '\uAC13';
+
+        Scanner SC = new Scanner(System.in);
+        //ch = SC.nextLine().charAt();
+
+        if ((ch >= 'A') && (ch <= 'Z')) {
+            System.out.printf("%c는 알파벳 소문자이다", ch);
+        } else if ((ch >= 'a') && (ch <= 'z')) ;
+        {
+            System.out.printf("%c는 알파벳 소문자이다", ch);
+        }else{
+            System.out.printf("알파벳이 아니다", ch);
+        }
+
+        System.out.println("CH");
+
+        SC.close();
+
+        System.out.println("ch");
+    }
+
+     */
 }
+
