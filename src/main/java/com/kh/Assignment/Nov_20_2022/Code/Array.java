@@ -5,15 +5,12 @@
 */
 package com.kh.Assignment.Nov_20_2022.Code;
 
-import java.util.Scanner;
-
-Study-Week2
-    public void method1() {
+//public void method1() {
 
 public class Array {
-/*
-    //public void method1(){
 
+    public void method1(){
+/*
 
 //Array Assignment
         int[] iArray;
@@ -107,7 +104,7 @@ public class Array {
             }
         }
     }
-    */
+
 /*
     public void method4() {
         int number = 0;
